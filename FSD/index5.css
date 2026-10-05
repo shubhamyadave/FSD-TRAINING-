@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.name {
+    margin-left: 80px;
+}
+
+.abes {
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.college {
+    font-size: 30px;
+    margin: 5px 0 0;
+    line-height: 1.2;
+}
+
+.code {
+    margin-left: 20px;
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 116, 116);
+    height: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.college_image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    animation: opacity 3s ease-in-out infinite alternate;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
